@@ -1,0 +1,73 @@
+.hero-section {
+  min-height: 100vh;
+  gap: 3rem;
+}
+
+.profile-img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #0d6efd;
+  box-shadow: 0 0 30px #0d6efd;
+  transition: 0.4s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #0d6efd;
+}
+
+.text-area h1 {
+  font-size: 3rem;
+}
+
+.typing {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.social-icons .icon {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #fff;
+  border: 2px solid #0d6efd;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+#skills ul li {
+  padding: 5px 0;
+  font-size: 16px;
+}
+#skills h5 {
+  color: #3b82f6;
+  text-shadow: 0 0 10px #3b82f6;
+}
+
+.social-icons a {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+.social-icons a:active {
+  transform: scale(0.9);
+}
+.social-icons i {
+  font-size: 28px;
+  margin-right: 15px;
+  color: #3b82f6;
+  transition: box-shadow 0.3s ease;
+}
+.social-icons i:active {
+  box-shadow: 0 0 20px #3b82f6;
+}
+
